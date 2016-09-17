@@ -1,0 +1,36 @@
+﻿
+body {
+    background-color: #86B7F7;
+}
+.MainHeading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+    font-weight: bold;
+    font-style: italic;
+    color: #0000FF;
+}
+.Subheading
+{
+    font-size: x-large;
+    color: #0000FF;
+}
+
+td.inputFields {
+    vertical-align: top;
+    width: 500px;
+}
+
+td.inputLabels {
+    vertical-align: top;
+    width: 100px;
+}
+
+td.validator_star {
+    vertical-align: top;
+    width: 20px;
+}
+
+td.cat_details {
+    vertical-align: top;
+}

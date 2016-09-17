@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.Master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="~/style/base-styles.css" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <span class="MainHeading">kable</span><br />
+        <span class="Subheading">simmlab knowledge base and event log</span><br />
+        </p>
+        <asp:Menu ID="Menu1" runat="server" BackColor="#FFFF66" DataSourceID="SiteMapDataSource" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+            <DynamicMenuStyle BackColor="#FFFF66" />
+            <StaticMenuItemStyle HorizontalPadding="20px" />
+        </asp:Menu>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" ShowStartingNode="False" />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+
+</html>

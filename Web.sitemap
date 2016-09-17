@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="">
+
+    <siteMapNode url="~/Administration/Default.aspx" title="Administration">
+      <siteMapNode url="~/Administration/ModerateProcedures.aspx" title="Moderate Procedures" />
+      <siteMapNode url="~/Administration/ManageCategories.aspx" title="Manage Categories" />
+      <siteMapNode url="~/Administration/ManagePolicies.aspx" title="Manage Policies" />
+      <siteMapNode url="~/Administration/ManageEvents.aspx" title="Manage Events" />
+      <siteMapNode url="~/Administration/DeleteProcedure.aspx" title="Delete Procedure" />
+      <siteMapNode url="~/Administration/ManageConfig.aspx" title="Manage App Configuration" />
+
+    </siteMapNode>
+
+    <siteMapNode url="~/Events/Default.aspx" title="Events and Procedures">
+      <siteMapNode url="~/Events/FindProcedure.aspx" title="Find Procedures by Category or Policy" />
+      <siteMapNode url="~/Events/CreateEditOrBrowseEvents.aspx" title="Create, Edit, or Browse Events" />
+      <siteMapNode url="~/Events/CreateOrEditProcedure.aspx" title="Create Or Edit Procedure" />
+      <siteMapNode url="~/Events/BrowsePolicies.aspx" title="Browse Policies" />
+
+    </siteMapNode>
+
+    <siteMapNode url="~/TemplatesAndStyleGuide/Default.aspx" title="Templates and Style Guide">
+      <siteMapNode url="~/TemplatesAndStyleGuide/Templates.aspx" title="Policy and Procedure Templates" />
+      <siteMapNode url="~/TemplatesAndStyleGuide/StyleGuide.aspx" title="Procedure Write-Up Style Guide" />
+   </siteMapNode>
+
+    </siteMapNode> <!-- end "home" node -->
+    
+</siteMap>
